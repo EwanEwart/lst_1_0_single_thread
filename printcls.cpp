@@ -19,5 +19,5 @@ PrintCls::PrintCls(const std::string &msg)
 
 void PrintCls::print()
 {
-    std::cout << msg << std::endl;
+    std::cout << msg << "(" << author << ")" << std::endl;
 }

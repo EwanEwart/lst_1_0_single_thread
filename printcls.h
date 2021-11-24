@@ -5,6 +5,7 @@
 
 class PrintCls
 {
+    std::string author{"EE"};
     std::string msg{};
 
 public:
