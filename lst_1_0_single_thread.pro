@@ -5,7 +5,9 @@ CONFIG -= qt
 
 SOURCES += \
         main.cpp \
+        pluginca.cpp \
         printcls.cpp
 
 HEADERS += \
+    pluginca.h \
     printcls.h

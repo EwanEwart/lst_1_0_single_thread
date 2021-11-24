@@ -3,6 +3,7 @@
 using namespace std;
 
 #include "printcls.h"
+#include "pluginca.h"
 
 int main()
 {
@@ -14,6 +15,10 @@ int main()
     pclass->print();
     pclass->setMsg("This is a Main Thread application.");
     pclass->print();
+
+    auto pluginca {make_unique<PluginCA>("reverse")};
+    pluginca->reverse();
+    std::cout << "Reverse: '" << pluginca->getRarg() << "'" << std::endl;
 
 //    delete pclass;
 
