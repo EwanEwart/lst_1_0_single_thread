@@ -9,3 +9,6 @@ SOURCES += \
 
 HEADERS += \
     printcls.h
+
+DISTFILES += \
+    README
